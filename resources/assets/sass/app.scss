@@ -1,0 +1,27 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.dropdown-menu {
+	border: 1px solid rgba(1,1,1,.05);
+	box-shadow: 0 5px 10px #0101014d;
+	border-radius: 3px;
+
+}
+
+.navbar-laravel {
+	background-color: $body-bg;
+	border-bottom: 1px solid #17a2b8;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+#reminder-toggler:checked ~ .reminder-wrap {
+    max-height: 400px;
+}
+

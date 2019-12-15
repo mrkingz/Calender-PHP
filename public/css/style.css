@@ -1,0 +1,417 @@
+body {
+    background: #ffffff;
+    color: rgba(1, 1, 1, 0.7);
+    font-family: sans-serif, Raleway 
+} 
+
+button {
+    cursor: pointer;
+}
+
+a
+.btn-link,
+.btn-link:hover,
+a:hover {
+    text-decoration: none;
+}
+
+
+a.btn,
+button.btn,
+a.register,
+button.resend,
+button.later,
+a.login {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+a.register:focus,
+button.later:focus,
+a.login:focus,
+a.register:hover,
+button.later:hover,
+a.login:hover {
+    text-decoration: none;
+    border: 1px dotted #007bff;
+}
+
+.auth-container {
+    padding: 0 40px;
+}
+
+a.recovery {
+    color: darkred;
+    font-weight: 600;
+    font-size: 11px;
+    padding: 7px 10px;
+}
+
+a.recovery:focus,
+a.recovery:hover {
+    text-decoration: none;
+    color: rgb(230, 43, 43);
+    border: 1px dotted rgb(247, 150, 150);
+}
+
+.background {
+    background-color: #fcfcfa;
+}
+
+a.brand-name:hover {
+    color: #69d6e7;
+}
+
+.before {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.brand-name {
+    font-size: 1.35rem;
+    color: #17a2b8;
+}
+
+button.resend:hover,
+button.resend:focus {
+    text-decoration: none;
+    border: 1px dotted rgba(1,1,1, .85);
+}
+
+button.resend:focus,
+button.resend:hover,
+button.resend {
+    font-weight: bold;
+    color: rgba(1,1,1,.85);
+}
+
+.card-line hr:last-child {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.editable-div {
+    width: auto;
+    height: auto;
+    font-weight: normal;
+    color: #495057;
+    line-height: 1.5;
+    min-height: 80px;
+    background-color: #fff;
+    font: 400 13.3333px Arial;
+  }
+  
+  div:empty::before {
+    font-weight: normal;
+    min-height: 28px;
+  }
+  
+  div[placeholder]:not([placeholder=""]):empty::before {
+    content: attr(placeholder);
+    line-height: 1.25;
+    font-weight: normal;
+    color: #868e96;
+    background-color: #fff;
+    opacity: 1;
+    font: 400 13.3333px Arial;
+    padding: 0;
+  }
+
+  div.dotted-border, .dotted-border {
+    border-style: dotted;
+  }
+
+.form {
+    padding: 10px 15px;
+    color: rgba(1, 1, 1, 0.7);
+}
+
+.form hr {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color:  #272b2c;
+    margin: 0 2px;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: .344rem;
+    margin-left: -1.25rem;
+    cursor: pointer;
+}
+
+.form-check > .form-check-label {
+    font-weight: 300;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-control:focus {
+    border: 1px solid #17a2b8;
+    box-shadow: 0 0 5px #17a2b8;
+}
+
+footer .navigations {
+    border-radius: 3px; 
+    padding: 8px; 
+    margin-top: 30px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+footer .navigations a {
+    padding: 0 5px;
+}
+
+.form-group {
+    margin-bottom: .5rem;
+}
+
+
+.form-title {
+    font-weight: 600;
+    font-size: 16px;
+    color: #636b6f;
+}
+
+.hide {
+    display: none;
+}
+
+.inner-wrap {
+    background-color: #fcfcfa;
+    border: 1px solid rgba(0,0,0,.125);    
+    border-radius: .25rem;
+}
+
+.invalid-feedback {
+    font-size: .8em;
+    color: #dc3545;
+}
+
+#remember {
+    color: rgba(1,1,1, .6);   
+    font-size: 11px;
+}
+
+.form-group label {
+    font-size: .73rem;
+    font-weight: bold;
+    color: rgba(1,1,1, .8);
+}
+
+.line {
+    margin: 10px 0;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0,0,0,.125); 
+}
+
+nav > ul {
+    display: flex; 
+    flex-direction: row;
+    list-style-type: none; 
+    margin: 0; 
+    font-size: 16px;
+}
+
+#menu,
+#user,
+#notification {
+    background: transparent;
+}
+
+.navbar-border {
+    border-bottom: 1px solid #17a2b8;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,.04);
+    box-shadow: 0 2px 4px rgba(0,0,0,.04);
+    *background-color: #f5f8fa;
+}
+
+/* .is-invalid:focus { 
+   border: 1px solid #D80015;
+   box-shadow: 0 0 5px #D80015;
+} */
+
+.nav-link {
+    color: #636b6f;
+    font-weight: bold;
+    padding: 2px 6px;
+    background: transparent;
+    border: 1px dotted transparent;
+    border-radius: 3px;
+}
+
+#menu:hover,
+#menu:focus,
+a.nav-link:hover,
+a.nav-link:focus {
+    border: 1px solid rgba(1,1,1,.2);
+    border-radius: 3px;
+    background-color: transparent;
+    box-shadow: 0 0 5px rgba(1,1,1,.2);
+} 
+
+.nav-menu {
+    width: 20px;
+    padding: 7px 0;
+    position: relative;
+    display: inline-block;
+  }
+  
+.nav-menu:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-top: 2px solid #4e443c;
+    border-bottom: 2px solid #4e443c;
+    top: 0px;
+}
+
+.nav-menu:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    height: 2px;
+    width: 100%;
+    background: #4e443c;
+} 
+
+.no-scrolls {
+    overflow: hidden;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.options label {
+    color: rgba(1,1,1, .65);
+}
+
+.outter-wrap {
+    padding: 3px;
+    background-color: #f5f7f8;;
+    border: 1px solid rgba(0,0,0,.125);    
+    border-radius: .25rem;
+}
+
+.reminder {
+    background-color: #fff;
+    border: 1px dotted rgba(0,0,0,.125);
+}
+
+.reminder-setting {
+    margin: 0;
+}
+
+.reminder-wrap {
+    max-height: 0;
+    transition: max-height .5s;
+    overflow: hidden;
+}
+
+.reminder-check {
+    position: relative;
+    display: block;
+    padding-left: 0; 
+}
+
+.right {
+    float: right;
+}
+
+#schedule-type {
+    font-weight: normal;
+    font-size:11px; 
+    background: transparent;
+}
+
+#schedule-type:focus {
+    border: 1px dotted rgba(1,1,1,.2);
+}
+
+/* .schedules {
+    border: 1px solid rgba(1,1,1,.03);
+    border-radius: 4px;
+} */
+
+.schedules {
+    background-color:  rgba(1,1,1,.03);
+    border-top: 1px solid rgba(1,1,1,.03);
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.schedule-btn a {
+    background: #fff; 
+    color:#17a2b8;
+    border: 1px dotted #17a2b8;
+}
+
+.schedule-btn a:hover {
+    color:#125c68;
+    border: 1px dotted #125c68;
+}
+
+.size-11 {
+    font-size:11px;
+}
+
+.size-12 {
+    font-size:12px;
+}
+
+span.bar {
+    content: "|";
+    font-weight: normal;
+}
+
+span.page {
+    color: rgba(1, 1, 1, 0.7);
+    font-size: .72rem;
+}
+
+.title {
+    font-size: 1.35rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #636b6f;
+    margin: 20px 0 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    display: inherit;
+}
+
+.wait {
+    cursor: wait;
+}
+
+@media screen and (max-width:776px){
+    .bar,
+    .page {
+        display: none;
+    }
+
+    .before {
+        display: block;
+    }
+
+    .after {
+        display: none;
+    }
+}
